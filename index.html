@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary App</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release-pro/v4.0.0/css/solid.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio id="sound"></audio>
+    <div class="container">
+      <div class="heading">
+        <h1 class="title">Dictionary</h1>
+        <p class="subtitle">Expand your vocabulary with humor</p>
+      </div>
+      <!-- Search Box  -->
+      <div class="search-box">
+        <input
+          type="text"
+          placeholder="Search the word here...."
+          id="input-word"
+          class="searchWord"
+        />
+        <span id="error_message"></span>
+        <button id="search-btn">Search</button>
+      </div>
+
+      <!-- Result of the Searched Word  -->
+      <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
